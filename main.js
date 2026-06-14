@@ -22,8 +22,8 @@
     dot.style.left  = mx + 'px';
     dot.style.top   = my + 'px';
     // Ring lerps
-    rx += (mx - rx) * 0.3;
-    ry += (my - ry) * 0.3;
+    rx += (mx - rx) * 0.5;
+    ry += (my - ry) * 0.5;
     ring.style.left = rx + 'px';
     ring.style.top  = ry + 'px';
     rafId = requestAnimationFrame(tick);
