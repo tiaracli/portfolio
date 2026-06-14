@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tiara Clianta Andiwi — Portfolio</title>
+  <meta name="description" content="Portfolio of Tiara Clianta Andiwi, STI ITB student passionate about Data Analytics and IT Project Management." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════ CURSOR ═══════════════════════════════ -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ═══════════════════════════════ NAV ═══════════════════════════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#hero">TCA<span class="logo-dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#organizations">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#organizations">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════ HERO ══════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-blob blob-1"></div>
+    <div class="hero-blob blob-2"></div>
+    <div class="hero-blob blob-3"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal-up">
+        <span class="badge-dot"></span>
+        Open to opportunities · Semester 4 · ITB
+      </div>
+
+      <h1 class="hero-name reveal-up">
+        <span class="name-line">Tiara</span>
+        <span class="name-line accent-line">Clianta<em>.</em></span>
+      </h1>
+
+      <p class="hero-tagline reveal-up">
+        Turning data into decisions &amp; ideas into systems.
+      </p>
+
+      <p class="hero-sub reveal-up">
+        Information Systems &amp; Technology student at <strong>ITB</strong> — I love
+        untangling complex data problems, building clean tools, and making
+        information actually <em>useful</em> for people.
+      </p>
+
+      <div class="hero-cta reveal-up">
+        <a class="btn btn-primary" href="#projects">See my work</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+
+      <div class="hero-scroll reveal-up">
+        <span>scroll</span>
+        <div class="scroll-line"><div class="scroll-dot"></div></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <div class="avatar-initials">TC</div>
+        </div>
+        <div class="ring ring-1"></div>
+        <div class="ring ring-2"></div>
+        <div class="ring ring-3"></div>
+      </div>
+
+      <div class="floating-card card-data">
+        <div class="fc-icon">📊</div>
+        <div>
+          <div class="fc-title">Data Analytics</div>
+          <div class="fc-sub">Turning raw data into insight</div>
+        </div>
+      </div>
+
+      <div class="floating-card card-pm">
+        <div class="fc-icon">🗂️</div>
+        <div>
+          <div class="fc-title">IT Project Mgmt</div>
+          <div class="fc-sub">Scoping, planning, delivering</div>
+        </div>
+      </div>
+
+      <div class="floating-card card-code">
+        <div class="fc-icon">💻</div>
+        <div>
+          <div class="fc-title">Python · Java · SQL</div>
+          <div class="fc-sub">From logic to output</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ ABOUT ════════════════════════════════ -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-label reveal-up">WHO I AM</div>
+
+      <div class="about-grid">
+        <div class="about-text reveal-left">
+          <h2 class="section-heading">
+            A data-curious student<br />who loves <span class="highlight">building things</span>.
+          </h2>
+          <p>
+            Hi! I'm <strong>Tiara Clianta Andiwi</strong>, a 4th-semester student at the School of 
+            Electrical Engineering and Informatics, Institut Teknologi Bandung, majoring in 
+            <strong>Information Systems &amp; Technology (STI)</strong>.
+          </p>
+          <p>
+            My academic focus sits at the intersection of <strong>data analytics</strong> and 
+            <strong>IT project management</strong> — I believe that the best tech solutions are 
+            ones that are both technically sound and human-centered.
+          </p>
+          <p>
+            When I'm not wrestling with SQL queries or project timelines, I'm likely 
+            contributing to campus organizations, trying to make student life a little 
+            more organized and meaningful.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-num" data-target="4">0</span>
+              <span class="stat-label">Semesters<br/>at ITB</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="5">0</span>
+              <span class="stat-label">Programming<br/>Languages</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="3">0</span>
+              <span class="stat-label">Projects<br/>Completed</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-cards reveal-right">
+          <div class="info-card">
+            <div class="ic-icon">🎓</div>
+            <div class="ic-content">
+              <div class="ic-label">Education</div>
+              <div class="ic-value">Institut Teknologi Bandung</div>
+              <div class="ic-sub">S1 Sistem &amp; Teknologi Informasi · 2023–2027</div>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="ic-icon">📍</div>
+            <div class="ic-content">
+              <div class="ic-label">Location</div>
+              <div class="ic-value">Bandung, West Java</div>
+              <div class="ic-sub">Indonesia 🇮🇩</div>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="ic-icon">🔭</div>
+            <div class="ic-content">
+              <div class="ic-label">Currently exploring</div>
+              <div class="ic-value">Business Intelligence &amp; BI Dashboards</div>
+              <div class="ic-sub">Power BI · Tableau · Data storytelling</div>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="ic-icon">✨</div>
+            <div class="ic-content">
+              <div class="ic-label">Fun fact</div>
+              <div class="ic-value">I debug code with sticky notes</div>
+              <div class="ic-sub">Old-school but it works every time</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ SKILLS ═══════════════════════════════ -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-label reveal-up">WHAT I WORK WITH</div>
+      <h2 class="section-heading reveal-up">Skills &amp; Tools</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-category reveal-up">
+          <div class="sc-header">
+            <span class="sc-emoji">💻</span>
+            <h3>Programming</h3>
+          </div>
+          <div class="skill-pills">
+            <div class="skill-pill" data-level="85">
+              <span class="pill-name">Python</span>
+              <div class="pill-bar"><div class="pill-fill" style="--w:85%"></div></div>
+            </div>
+            <div class="skill-pill" data-level="75">
+              <span class="pill-name">Java</span>
+              <div class="pill-bar"><div class="pill-fill" style="--w:75%"></div></div>
+            </div>
+            <div class="skill-pill" data-level="70">
+              <span class="pill-name">C</span>
+              <div class="pill-bar"><div class="pill-fill" style="--w:70%"></div></div>
+            </div>
+            <div class="skill-pill" data-level="65">
+              <span class="pill-name">HTML</span>
+              <div class="pill-bar"><div class="pill-fill" style="--w:65%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="animation-delay:.1s">
+          <div class="sc-header">
+            <span class="sc-emoji">🗄️</span>
+            <h3>Data &amp; Databases</h3>
+          </div>
+          <div class="skill-pills">
+            <div class="skill-pill" data-level="80">
+              <span class="pill-name">SQL</span>
+              <div class="pill-bar"><div class="pill-fill" style="--w:80%"></div></div>
+            </div>
+            <div class="skill-pill" data-level="75">
+              <span class="pill-name">Data Analysis</span>
+              <div class="pill-bar"><div class="pill-fill" style="--w:75%"></div></div>
+            </div>
+            <div class="skill-pill" data-level="65">
+              <span class="pill-name">Business Intelligence</span>
+              <div class="pill-bar"><div class="pill-fill" style="--w:65%"></div></div>
+            </div>
+            <div class="skill-pill" data-level="60">
+              <span class="pill-name">Data Visualization</span>
+              <div class="pill-bar"><div class="pill-fill" style="--w:60%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="animation-delay:.2s">
+          <div class="sc-header">
+            <span class="sc-emoji">📋</span>
+            <h3>Project Management</h3>
+          </div>
+          <div class="skill-pills">
+            <div class="skill-pill" data-level="78">
+              <span class="pill-name">IT Project Planning</span>
+              <div class="pill-bar"><div class="pill-fill" style="--w:78%"></div></div>
+            </div>
+            <div class="skill-pill" data-level="72">
+              <span class="pill-name">Agile / Scrum</span>
+              <div class="pill-bar"><div class="pill-fill" style="--w:72%"></div></div>
+            </div>
+            <div class="skill-pill" data-level="70">
+              <span class="pill-name">Requirements Analysis</span>
+              <div class="pill-bar"><div class="pill-fill" style="--w:70%"></div></div>
+            </div>
+            <div class="skill-pill" data-level="68">
+              <span class="pill-name">Documentation</span>
+              <div class="pill-bar"><div class="pill-fill" style="--w:68%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="animation-delay:.3s">
+          <div class="sc-header">
+            <span class="sc-emoji">🧠</span>
+            <h3>Soft Skills</h3>
+          </div>
+          <div class="tag-cloud">
+            <span class="tag">Critical Thinking</span>
+            <span class="tag">Team Collaboration</span>
+            <span class="tag">Problem Solving</span>
+            <span class="tag">Communication</span>
+            <span class="tag">Adaptability</span>
+            <span class="tag">Time Management</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ PROJECTS ══════════════════════════════ -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-label reveal-up">WHAT I'VE BUILT</div>
+      <h2 class="section-heading reveal-up">Featured Projects</h2>
+      <p class="section-sub reveal-up">A curated set of academic and personal projects that reflect how I think and build.</p>
+
+      <div class="projects-grid">
+
+        <div class="project-card featured reveal-up">
+          <div class="pc-accent"></div>
+          <div class="pc-tags">
+            <span class="pc-tag">Python</span>
+            <span class="pc-tag">SQL</span>
+            <span class="pc-tag">Data Analysis</span>
+          </div>
+          <div class="pc-featured-badge">⭐ Featured</div>
+          <h3 class="pc-title">Student Academic Performance Analyzer</h3>
+          <p class="pc-desc">
+            A data pipeline and dashboard tool that ingests raw academic records, 
+            cleans and normalizes data using Python (pandas), stores it in a relational 
+            database, and produces visual summaries highlighting performance trends 
+            across semesters and courses.
+          </p>
+          <ul class="pc-highlights">
+            <li>Automated ETL pipeline with pandas &amp; SQLite</li>
+            <li>Statistical trend analysis across 6 metrics</li>
+            <li>Visual output using matplotlib</li>
+          </ul>
+          <div class="pc-footer">
+            <a class="pc-link" href="#" target="_blank" rel="noopener">View Project →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up" style="animation-delay:.1s">
+          <div class="pc-accent accent-coral"></div>
+          <div class="pc-tags">
+            <span class="pc-tag">Java</span>
+            <span class="pc-tag">OOP</span>
+          </div>
+          <h3 class="pc-title">Campus Event Management System</h3>
+          <p class="pc-desc">
+            A Java-based console application for managing campus events — from registration 
+            to participant tracking. Designed with OOP principles including inheritance, 
+            encapsulation, and polymorphism. Built for an OOP course final project.
+          </p>
+          <ul class="pc-highlights">
+            <li>Full CRUD operations for events &amp; participants</li>
+            <li>Role-based access (admin / participant)</li>
+            <li>File I/O persistence layer</li>
+          </ul>
+          <div class="pc-footer">
+            <a class="pc-link" href="#" target="_blank" rel="noopener">View Project →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up" style="animation-delay:.2s">
+          <div class="pc-accent accent-violet"></div>
+          <div class="pc-tags">
+            <span class="pc-tag">SQL</span>
+            <span class="pc-tag">BI</span>
+            <span class="pc-tag">Data Viz</span>
+          </div>
+          <h3 class="pc-title">ITB Canteen Sales Dashboard</h3>
+          <p class="pc-desc">
+            Designed a relational database schema for a campus canteen and built analytical 
+            queries to surface peak-hours, best-selling items, and revenue trends. 
+            Presented insights through a data visualization layer.
+          </p>
+          <ul class="pc-highlights">
+            <li>Normalized DB schema (3NF) with 8 tables</li>
+            <li>15+ analytical SQL queries</li>
+            <li>Visual dashboard mockup in Spreadsheet</li>
+          </ul>
+          <div class="pc-footer">
+            <a class="pc-link" href="#" target="_blank" rel="noopener">View Project →</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="projects-cta reveal-up">
+        <p>More projects coming soon as I keep building ✨</p>
+        <a class="btn btn-outline" href="https://github.com/" target="_blank" rel="noopener">View GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ ORGANIZATIONS ═════════════════════════ -->
+  <section class="section organizations" id="organizations">
+    <div class="container">
+      <div class="section-label reveal-up">BEYOND THE CLASSROOM</div>
+      <h2 class="section-heading reveal-up">Organizations &amp; Activities</h2>
+      <p class="section-sub reveal-up">Contributing, learning, and growing through campus life.</p>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal-left">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-period">2024 — Present</div>
+            <h3 class="tl-role">Active Member</h3>
+            <div class="tl-org">ITB Student Organization (Himpunan STI)</div>
+            <p class="tl-desc">
+              Actively participate in organizing academic and social events for the STI 
+              community. Contributed to event planning, logistics coordination, and 
+              internal communications for department-wide activities.
+            </p>
+            <div class="tl-tags">
+              <span>Event Planning</span>
+              <span>Team Coordination</span>
+              <span>Communication</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-right">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-period">2023 — 2024</div>
+            <h3 class="tl-role">Committee Member</h3>
+            <div class="tl-org">Campus Orientation Program (OSKM ITB)</div>
+            <p class="tl-desc">
+              Served on the organizing committee for ITB's new student orientation program. 
+              Helped design the program schedule, manage participant logistics, and create 
+              a welcoming environment for incoming freshmen.
+            </p>
+            <div class="tl-tags">
+              <span>Project Management</span>
+              <span>Leadership</span>
+              <span>Documentation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-left">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-period">2023 — Present</div>
+            <h3 class="tl-role">Student Delegate</h3>
+            <div class="tl-org">STI Academic Activities &amp; Study Groups</div>
+            <p class="tl-desc">
+              Joined peer study groups for Data Structures and Database courses. 
+              Helped facilitate group discussions, shared learning resources, and 
+              co-created study materials used by fellow STI students.
+            </p>
+            <div class="tl-tags">
+              <span>Mentoring</span>
+              <span>Collaboration</span>
+              <span>Knowledge Sharing</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ CONTACT ═══════════════════════════════ -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact-wrapper reveal-up">
+        <div class="contact-left">
+          <div class="section-label">SAY HI 👋</div>
+          <h2 class="section-heading">Let's connect &amp;<br/>make things happen.</h2>
+          <p>
+            Whether you're looking to collaborate on a project, chat about data analytics, 
+            or just want to say hello — my inbox is open.
+          </p>
+
+          <div class="contact-links">
+            <a class="contact-link" href="mailto:tiara.clianta@gmail.com">
+              <div class="cl-icon">✉️</div>
+              <div>
+                <div class="cl-label">Email</div>
+                <div class="cl-value">tiara.clianta@gmail.com</div>
+              </div>
+            </a>
+            <a class="contact-link" href="https://linkedin.com/in/tiara-clianta" target="_blank" rel="noopener">
+              <div class="cl-icon">💼</div>
+              <div>
+                <div class="cl-label">LinkedIn</div>
+                <div class="cl-value">linkedin.com/in/tiara-clianta</div>
+              </div>
+            </a>
+            <a class="contact-link" href="https://github.com/tiaraclianta" target="_blank" rel="noopener">
+              <div class="cl-icon">🐙</div>
+              <div>
+                <div class="cl-label">GitHub</div>
+                <div class="cl-value">github.com/tiaraclianta</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-right">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="What's on your mind?" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span class="btn-text">Send Message</span>
+              <span class="btn-arrow">→</span>
+            </button>
+            <div class="form-success" id="formSuccess">
+              ✅ Message sent! I'll get back to you soon.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ FOOTER ════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">TCA<span class="logo-dot">.</span></div>
+        <p class="footer-copy">
+          © 2025 Tiara Clianta Andiwi · Built with ❤️ and a lot of coffee ☕
+        </p>
+        <div class="footer-links">
+          <a href="https://github.com/tiaraclianta" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/tiara-clianta" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
